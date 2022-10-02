@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(180deg, rgba(64, 0, 94, 0.92) 0%, #00BF7A 71.87%) fixed;
+}
+
+.Navbar .Theme{
+    background-image: url("pictures/sun.png");
+}
+
+.Navbar a {
+    color: white;
+}
+
+.Message {
+    background: linear-gradient(90deg, #00045B 15.1%, #7BE4B9 100%);
+}
+.Message p {
+
+}
+
+.Light path{
+    fill: #33356B;
+}
+
+.Dark path{
+    fill: rgba(112, 27, 142, 0.87);
+}
+
+.Im u {
+    text-decoration-color: white;
+    color: #74EFC3;
+}
+
+.Eclipse {
+    background: #652B89;
+}
+
+.Hide a {
+    color: #000000;
+}

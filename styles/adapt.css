@@ -1,0 +1,113 @@
+@media all and (max-width: 1200px) {
+    .Navbar {
+        height: 2rem;
+    }
+
+    .Navbar a {
+        font-size: 2.65rem;
+        line-height: 2rem;
+        margin-right: 0.4em;
+    }
+    .Navbar .Theme {
+        width: 2.125rem;
+    }
+    .Navbar .Name {
+        font-size: 2rem;
+    }
+
+    .Text {
+        width: 60%;
+        /*margin: auto auto;*/
+    }
+
+    .Projects .Text p {
+        text-align: justify;
+    }
+}
+
+@media all and (max-width: 970px){
+    .Block .Text .Line { display: none; }
+
+    .Emoji { display: none; }
+
+    .Hand { display: none; }
+
+    .Third { display: none; }
+}
+
+@media all and (max-width: 715px) {
+    .Navbar {
+        height: 1.5rem;
+    }
+
+    .Navbar a {
+        font-size: 1.65rem;
+        line-height: 1.5rem;
+        margin-right: 0.3em;
+    }
+    .Navbar .Theme {
+        width: 1.625rem;
+    }
+    .Navbar .Name {
+        font-size: 1.5rem;
+    }
+
+    #Info {
+        padding: 0 2.5rem;
+    }
+    .Text {
+        max-width: 80%;
+        margin: 7rem auto;
+    }
+
+    .Text .Header {
+        font-size: 2rem;
+    }
+
+    .Block .Text div {
+        margin: .5rem auto;
+    }
+
+    .Text p{
+        font-size: 1rem;
+        margin: auto auto;
+    }
+
+    .Projects .Text p {
+        text-align: right;
+    }
+
+    .Text .Eclipse {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2.5rem;
+
+        border-radius: 7rem;
+    }
+
+    .Figure { display: none; }
+}
+
+@media all and (max-width: 470px) {
+    .Navbar {
+        height: 1rem;
+    }
+
+    .Navbar a {
+        font-size: 1.15rem;
+        line-height: 1rem;
+        margin-right: 0.2em;
+    }
+    .Navbar .Theme {
+        width: 1.125rem;
+    }
+    .Navbar .Name {
+        font-size: 1rem;
+    }
+
+    .Projects .Text p {
+        text-align: justify;
+    }
+
+
+}

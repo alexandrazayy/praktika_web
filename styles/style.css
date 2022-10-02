@@ -1,0 +1,350 @@
+@import "fonts.css";
+@import "animations.css";
+@media all { @import "adapt.css"; }
+
+* {  margin: 0;
+    padding: 0; }
+
+a {
+    text-decoration: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+HTML {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.Content {
+    box-sizing: border-box;
+    margin: auto auto;
+    align-content: center;
+}
+
+.Home {
+    padding-top: 15px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: min-content;
+    overflow: hidden;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.Photo {
+    padding: 0 3rem;
+    margin: 0 auto;
+    display: block;
+    width: 75vmin;
+    animation: 2s 1 slideLeft;
+    pointer-events: none;
+    z-index: 1;
+    -webkit-mask-image: -webkit-gradient(linear,left top, left bottom,
+    color-stop(0.00, rgba(0,0,0,1)));
+}
+
+#Info {
+    padding: 0 5rem;
+    animation: 2s 1 slideRight;
+    position: relative;
+    margin: 8rem auto;
+    max-width: 60%;
+    height: max-content;
+    float: left;
+    z-index: 2;
+
+}
+
+#Info p {
+    font-family: 'Actor';
+    font-style: normal;
+}
+
+.Message {
+    position: relative;
+    width: 20vmin;
+    height: 7vmin;
+    border-radius: 5vmin 5vmin 5vmin 0px;
+    text-align: center;
+    left: 20vmin;
+}
+
+.Message p {
+    left: 0;
+    background: none;
+    line-height: 7vmin;
+    font-size: 5vmin;
+    color: #FFFFFF;
+}
+
+.Im p {
+    position: relative;
+    margin-top: 0.5vmin;
+    font-size: 8vmin;
+    line-height: 8vmin;
+    min-width: 20vmin;
+    margin-bottom: 0;
+}
+
+.Description p {
+    position: relative;
+    margin-top: 0;
+    font-size: 2.35vmin;
+    line-height: 3vmin;
+}
+
+.Hello {
+    position: relative;
+    top: 0.5vmin;
+    height: 7vmin;
+}
+
+
+
+.Hide {
+    width: 3.83vmin;
+    max-width: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Hide:hover {
+    width: 20vmin;
+    transition: 1s;
+}
+
+.Society {
+    position: fixed;
+    left: 3vmin;
+    bottom: 3vmin;
+    max-width: 18.5vmin;
+    min-width: 15vmin;
+    z-index: 3;
+    overflow: no-display;
+}
+
+.Hide a {
+    line-height: 3.5vmin;
+    max-height: 5vmin;
+    display: block;
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+
+.Society img {
+    pointer-events: none;
+    width: 3.5vmin;
+}
+
+.Society span {
+    position: relative;
+    font-size: 1.7vmin;
+    left: 0.2vmin;
+    line-height: 0;
+    top: -1vmin;
+    font-family: Actor, serif;
+}
+
+.Block {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    margin: 11.5rem auto 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Text {
+    width: 55rem;
+    max-width: 50%;
+    min-width: 33%;
+
+    margin: 10% auto 7% auto;
+    position: relative;
+}
+
+.Text p {
+    font-family: Actor, serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1vmax;
+}
+
+.Text .Header {
+    font-size: 3rem;
+    display: flex;
+    text-align: left;
+}
+
+.Line {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    border: 0.5px solid;
+    background: black;
+}
+
+.AboutMe .Upper {
+    clip-path: inset(0 0 0 330px);
+    margin: 3rem 0 auto auto;
+}
+.AboutMe .Lower {
+    clip-path: inset(0 330px 0 330px);
+    margin: auto 0 0 0;
+}
+
+.Projects .Text div {
+    position: relative;
+    display: flow-root;
+    flex-wrap: nowrap;
+    margin: 2rem auto;
+}
+
+.Projects .Text p {
+    text-align: right;
+}
+
+.Projects a {
+    display: block;
+}
+.Projects .Upper {
+    clip-path: inset(0 0 0 330px);
+    margin: 3.6rem 0 auto auto;
+}
+.Emoji {
+    position: relative;
+    float: right;
+    margin: 0 auto;
+    width: 30rem;
+    height: 30rem;
+    flex-wrap: nowrap;
+}
+.Eclipse {
+    float: left;
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    font-size: 6rem;
+    text-align: -webkit-center;
+    color: black;
+
+    background: #F9F48E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 7rem;
+    margin: auto 3vmin auto 0;
+}
+
+
+
+.Navbar {
+    position: sticky;
+    top: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3.5rem;
+    animation: 3s 1ms appearance;
+    width: 90%;
+    z-index: 3;
+}
+
+.Navbar a {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-size: 4.15rem;
+    line-height: 3.5rem;
+    margin-right: 0.5em;
+    float: right;
+}
+
+.Navbar .Name {
+    margin-right: 0;
+    font-family: 'Copse';
+    font-size: 3.5rem;
+    float: left;
+}
+.TagLink {
+    position: absolute;
+    top: -10vmin;
+
+}
+.Navbar button {
+    background: none;
+    background-repeat: no-repeat;
+    border: none;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 70%;
+    background-position: center;
+
+    float: right;
+    cursor: pointer;
+    height: 100%;
+    width: 3.625rem;
+}
+
+.Navbar .Link:hover {
+    background: rgba(0, 0, 0, .1);
+    text-decoration-line: underline;
+}
+
+.Figure {
+    position: absolute;
+    overflow: hidden;
+    z-index: -5;
+}
+.First {
+    float: right;
+    right: 0;
+}
+
+.Second {
+    left: -3%;
+    float: left;
+}
+
+.Third {
+    float: left;
+    bottom: -5%;
+    left: 25%;
+}
+
+.Fourth {
+    bottom: -10%;
+    right: 10%;
+}
+
+.Projects .Second {
+    left: 25%;
+}
+
+.Projects .Third {
+    bottom: 0;
+    left: 13%;
+}
+
+.Projects .Fourth{
+    top: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    bottom: 0px;
+}
+
+.Projects .Text .Upper {
+    position: absolute;
+    clip-path: inset(0 0 0 330px);
+    margin: 3rem 0 auto auto;
+}
+.Projects .Text .Lower {
+    clip-path: inset(0 330px 0 10px);
+    margin: auto 0 0 0;
+}
+

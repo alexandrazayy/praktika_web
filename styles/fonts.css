@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Actor';
+    src: url('fonts/Actor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cookie';
+    src: url('fonts/Cookie-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Copse';
+    src: url('fonts/Copse-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
